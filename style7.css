@@ -1,0 +1,85 @@
+body{
+    background-image: url('work.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.main{
+    border: 1px solid black;
+    margin: 80px 450px 0px 450px;
+    background-color: rgb(241, 241, 235);
+    height: 500px;
+    width: 450px;
+
+}
+
+img{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.heading
+{
+    background-color: purple;
+    font-size: 30px;
+    color: white;
+}
+
+.content
+{
+    margin: 20px 15px ;
+}
+input
+{
+    height: 20px;
+    width: 240px;
+}
+
+button{
+    height: 28px;
+    width: 80px;
+    background-color: purple;
+    color:white;
+    padding: 5px 2px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 20px;
+}
+button:hover
+{
+    background-color: rgb(228, 154, 243);
+}
+ul{
+list-style-type:  "\1F44D";
+line-height: 200%;
+}
+
+#delBtn
+{ 
+  position: absolute;  
+  left: 625px;  
+}
+#editBtn
+{   position: absolute;
+    left: 725px;
+}
+
+@media screen and (max-width:1200px)
+{
+    .main
+    {
+       margin-left: 20px;
+       width: 400px;
+    }
+    #delBtn
+    { 
+      position: relative;  
+      left: 100px;  
+    }
+    #editBtn
+{   position: relative;
+    left: 110px;
+}
+
+
+}
